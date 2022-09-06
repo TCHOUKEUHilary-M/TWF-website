@@ -1,0 +1,187 @@
+body{
+    background-color: aquamarine ;
+}
+nav{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+nav ul {
+    padding-top: 3rem;
+    border:0px solid black;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    color: white;
+}
+nav a:hover{
+ background-color: rgb(47, 235, 235);
+ color: white;
+ border: 2px solid rgb(38, 238, 238);
+}
+header{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+    background-color: rgb(59, 250, 186);}
+    header p{
+        display: flex;
+        justify-content: center;
+        text-transform: capitalize;
+        font-size: 2rem;
+
+    }
+    header img{
+        align-self: center;
+        border: 0px solid white;
+        border-radius: 50%;
+    }
+    header h1 {
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    #apropos{
+        background-color: white;
+        padding: 10px
+    }
+    #detail{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 4rem;
+        font-size: 1.2rem;
+    }
+    #heading{display: flex;
+        justify-content: center;
+     font-size: 3rem;
+     color: gray;
+     margin:2rem ;
+     }
+     #head{
+        display: flex;
+        justify-content: center;
+     font-size: 3rem;
+     color:rgb(22, 21, 21); 
+     }
+     #parcours{
+        padding: 3rem;
+        background-color: rgb(59, 250, 186);  
+     }
+     #part{
+         display: flex;
+         flex-direction: row;
+         padding: 15px;
+     }
+     #parcours .web{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         background-color: white;
+         font-size: 1rem;
+         border-top-left-radius: 3rem;
+         border-bottom-left-radius: 3rem;
+         border-top-right-radius: 3rem;
+         padding: 1rem;
+         text-align: center;
+         margin-left: 0.5rem;
+         margin-right: 0.5rem;
+     }
+     button{
+         align-self: flex-start;
+         color: white;
+         background-color: rgb(59, 250, 186) ;
+         border: 2px solid rgb(59, 250, 186);
+         border-radius: 10px;
+         padding: 10px;
+         font-size: 1.5rem;
+         margin: 10px;
+     }
+     button:hover{background-color: gray;
+      color: white;
+    }
+    #dates{
+        padding: 4rem;
+        background-color: white;
+    }
+    #start{
+     display: flex;
+     justify-content: center;
+     font-size: 3rem;
+     color: gray;
+     margin:2rem ;
+     
+    }
+    table{
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2rem;
+        border-collapse: collapse;
+    }
+    tr,td,th{
+        border: 2px solid gray;
+        border-collapse: collapse;
+    }
+    thead{background-color: rgb(59, 250, 186);}
+    #portefolio{
+        background-color: rgb(59, 250, 186);
+        padding: 10px    
+    }
+    #porte{
+        display: flex;
+        justify-content: center;
+     font-size: 3rem;
+     color: rgb(29, 28, 28);
+     margin:2rem ;
+     text-transform: uppercase;
+    }
+    #img{
+        display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+    }
+    #img img{
+        margin: 2rem;
+    }
+    #img img:hover{
+      width: 500px;
+    }
+    #contact{
+        background-color: white;
+        padding: 2rem;
+    }
+    #form{
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+    }
+    .PART{
+        border: 1PX SOLID rgb(59, 250, 186);
+        border-radius: 3rem;
+        margin: 1rem;
+        padding: 3rem;
+        background-color: rgb(59, 250, 186);
+    }
+    .table,form{
+        background-color: rgb(59, 250, 186);
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        text-transform: capitalize;
+        border: 0px solid white;
+        font-size: 1.5rem;
+    }
+    #button{
+        display: flex;
+        justify-content: flex-end;
+    }

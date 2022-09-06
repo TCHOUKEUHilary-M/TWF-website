@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porte folio</title>
+    <link rel="stylesheet" type="text/css" href="css/projet.css">
+</head>
+<body>
+    <nav>
+        <img src="asset/caysti.png" alt="caysti" height="100px" width="50px">
+        <ul>
+          <li><a href="index.html">ACCUEIL</a></li>
+          <li><a href="A PROPOS.HTML">A PROPOS</a></li>
+          <li><a href="parcours.html">PARCOURS</a></li>
+          <li><a href="dates.html">DATES</a></li>
+          <li><a href="porte folio.html">PORTE FOLIO</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+ </nav> 
+         <section id="contact">
+            <h1 id="porte">CONTACT</h1> 
+            <hr width="100px" color="gray">
+            <div id="form">
+                <div class="PART">
+                  <form method="post" action="test.php">
+                            <table class="table">
+                                <tr class="table">
+                                    <td class="table"><label for="fullname">Full Name</label><br></td>
+                                    <td class="table"><input type="text" name="fname" maxlength="30"></td>
+                                </tr>
+                                <tr class="table">
+                                  <td class="table"><label for="Age">Age</label></td>
+                                  <td class="table"><input type="number" name="Age" size="50" min="10" max="100"></td>
+                                </tr>
+                                <tr class="table">
+                                  <td class="table"><label for="Email">Email Adress</label></td>
+                                  <td class="table"><input type="email" name="Email" maxlength="30"></td>
+                                </tr>
+                                <tr class="table">
+                                  <td class="table"><label for="phone">Phone Number</label></td>
+                                  <td class="table"><input type="number" name="phone" maxlength="30"></td>
+                                </tr>
+                                <tr class="table">
+                                  <td class="table"><label for="Country">Country</label></td>
+                                  <td class="table"><select name="Country" >
+                                    <optgroup>Europe
+                                       <option>France</option>
+                                       <option>colombia</option>
+                                    </optgroup>
+                                    <optgroup>Africa
+                                       <option>Nigeria</option>
+                                       <option selected>Cameroon</option>
+                                    </optgroup>
+                                </select><label>
+                                </tr>
+                                <tr class="table">
+                                  <td class="table"><label>Message</label></td>
+                                  <td class="table"><textarea></textarea></td>
+                                </tr>
+                            </table>
+                  </form>
+                </div>
+                <div class="PART">
+                       <div class="table">
+                           <label for="how">how did you appreciate this web site:</label>
+                           <br>
+                           <p><input type="checkbox" name="how"><label for="how">Very good</label></p>
+                           <p><input type="checkbox" name="how"><label for="how">Good</label></p>
+                           <p><input type="checkbox" name="how"><label for="how">Difficult to navigate</label></p>
+                           <p><input type="checkbox" name="how"><label for="how">Other</label></p>
+                           <p><label for="ans">did you visit the website before?</label>
+                            <br><input type="radio" name="ans"><label>yes</label>
+                            <br><input type="radio" name="ans"><label>No</label>
+                        </p>
+                           <p><label for="when">When did you visit the website</label><br>
+                            <input type="datetime" name="how"></p>
+                       </div>
+                </div>
+            </div>
+            <div id="button" >
+                <button >Envoyer</button>
+                <button >Reset</button>
+            </div>
+        </section>
+</body>
+</html>
